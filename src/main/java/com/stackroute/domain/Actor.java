@@ -46,4 +46,3 @@ public class Actor {
         this.age = age;
     }
 }
-

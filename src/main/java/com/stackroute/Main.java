@@ -24,10 +24,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
 
-    public  static  void main(String[] args) {
+    public static void main(String[] args) {
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
         ((ClassPathXmlApplicationContext) applicationContext).registerShutdownHook();
-        com.stackroute.BeanLifeCycle beanLifeCycle=(com.stackroute.BeanLifeCycle) applicationContext.getBean("cycle");
+        BeanLifeCycle beanLifeCycle = (BeanLifeCycle) applicationContext.getBean("cycle");
     }
 }
