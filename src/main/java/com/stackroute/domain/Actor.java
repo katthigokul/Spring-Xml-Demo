@@ -1,5 +1,6 @@
 package com.stackroute.domain;
 
+
 public class Actor {
 
     private String name;
@@ -44,5 +45,5 @@ public class Actor {
         this.gender = gender;
         this.age = age;
     }
-
 }
+
